@@ -1,0 +1,36 @@
+@media only screen and (max-width : 576px){
+    .header-container{
+        flex-direction: column;
+        padding:15px;
+    }
+    .logo-title{
+        font-size: 30px;
+    }
+    .list-items{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text-container{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 50px;
+    }
+    .banner-subtitle{
+        text-align: center;
+    }
+    .banner-image-container{
+        width:100%
+    }
+    .products-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer{
+        flex-direction: column;
+        padding: 15px;
+        height: 150px;
+    }
+
+}
